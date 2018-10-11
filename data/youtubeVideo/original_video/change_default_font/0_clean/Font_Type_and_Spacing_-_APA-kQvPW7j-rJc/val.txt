@@ -1,0 +1,5 @@
+youtubeVideo/original_video/change_default_font/0_clean/Font_Type_and_Spacing_-_APA-kQvPW7j-rJc/1_default_font/1_font_menu/frame_0000000304.png 1
+youtubeVideo/original_video/change_default_font/0_clean/Font_Type_and_Spacing_-_APA-kQvPW7j-rJc/1_default_font/1_font_menu/frame_0000000306.png 1
+youtubeVideo/original_video/change_default_font/0_clean/Font_Type_and_Spacing_-_APA-kQvPW7j-rJc/1_default_font/6_font_default/frame_0000000482.png 6
+youtubeVideo/original_video/change_default_font/0_clean/Font_Type_and_Spacing_-_APA-kQvPW7j-rJc/1_default_font/6_font_default/frame_0000000484.png 6
+youtubeVideo/original_video/change_default_font/0_clean/Font_Type_and_Spacing_-_APA-kQvPW7j-rJc/1_default_font/6_font_default/frame_0000000560.png 6

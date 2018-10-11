@@ -1,0 +1,10 @@
+*.avi
+*.mp4
+*.png
+*.caffemodel
+*.solverstate
+*.binaryproto
+*INFO*
+*ERROR*
+*FATAL*
+*WARNING*

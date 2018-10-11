@@ -1,0 +1,21 @@
+net: "deepTutorial/config/deffontnet-10/train_val_5.prototxt"
+
+test_iter: 8
+test_interval: 50
+
+base_lr: 0.001
+
+lr_policy: "step"
+gamma: 0.1
+stepsize: 1423
+max_iter: 4269
+
+momentum: 0.9
+weight_decay: 0.0005
+
+display: 50
+
+snapshot: 711
+snapshot_prefix: "deepTutorial/model/deffontnet-10/train_train_5"
+
+solver_mode: GPU
