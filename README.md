@@ -1,5 +1,10 @@
 # Building-Usage-Profiles-Using-Deep-Neural-Nets
 
+<p align="center">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview_video.png" width="800">
+</p>
+
+
 <div style="text-align:center">
 <img src ="ttps://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview_video.png" />
 </div>
