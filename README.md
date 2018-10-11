@@ -9,21 +9,21 @@
 
  To improve software quality, one needs to build test scenarios resembling the usage of a software product in the field. This task is rendered challenging when a product's customer base is large and diverse. In this scenario, existing profiling approaches, such as operational profiling, are difficult to apply. In this work, we consider publicly available video tutorials of a product to profile usage. Our goal is to construct an automatic approach to extract information about user actions from instructional videos. To achieve this goal, we use a Deep Convolutional Neural Network (DCNN) to recognize user actions. Our pilot study shows that a DCNN trained to recognize user actions in video can classify five different actions in a collection of 236 publicly available Microsoft Word tutorial videos (published on YouTube). In our empirical evaluation we report a mean average precision of 94.42% across all actions. This study demonstrates the efficacy of DCNN-based methods for extracting software usage information from videos. Moreover, this approach may aid in other software engineering activities that require information about customer usage of a product.
  
- ## How it works
+## How it works
 
- A set of pre-defined states (classes) are determined for various versions of Microsoft word:
+### 1) A set of pre-defined states (classes) are selected for various versions of Microsoft Word
  
 <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="600">
  
-An AlexNet model is fine tuned to predict this set of classes.
+### 2) An AlexNet model is fine tuned to predict this set of classes
 
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/network.png" width="600">
  
- Next, a set of sequences are defined:
+### 3) Next, a set of sequences are defined
  
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regex.png" width="600">
  
- Finally, using a set of regular expressions (per pre-defined sequence), the users action is determined:
+### 4) Finally, after predicting the class of each image, regular expressions are ysed to determine the user's action
  
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/regex.png" width="600">
  
