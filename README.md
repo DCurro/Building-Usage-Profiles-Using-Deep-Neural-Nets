@@ -21,7 +21,7 @@
  
 ### 3) Next, a set of regular expressions are defined for the kinds of videos
  
- <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="500">
+ <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="600">
  
 ### 4) Finally, the class of each video's frame is predicted and regular expressions are used to determine the user's action
  
