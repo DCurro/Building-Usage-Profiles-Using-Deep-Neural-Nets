@@ -16,7 +16,7 @@
 ### 1) A set of pre-defined states (classes) are selected for various versions of Microsoft Word
 
 <p align="center">
-<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="400">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="500">
 </p> 
  
 ### 2) An AlexNet model is fine tuned to predict this set of classes
@@ -28,7 +28,7 @@
 ### 3) Next, a set of regular expressions are defined for the kinds of videos
  
 <p align="center">
- <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="600">
+ <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="700">
 </p> 
  
 ### 4) Finally, the class of each video's frame is predicted and regular expressions are used to determine the user's action
@@ -46,18 +46,18 @@
  
  The dataset is composed of videos for the give types of sequences. Each image is labeled in as one of the possible classes.
  
-  ### More Examples
+  ### Example Sequences and Images
   
 <p align="center">
-  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/column_popup.png" width="600">
+  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/column_popup.png" width="500">
 </p>
 
 <p align="center">
-<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="600">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="500">
 </p>
 
 <p align="center">
-<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/page_number.png" width="600">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/page_number.png" width="500">
 </p>
   
   ## Results
