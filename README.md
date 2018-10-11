@@ -2,7 +2,7 @@
 
 <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview.png" width="800">
 
- The project was created to provide the code and data used for the https://arxiv.org/abs/1702.07424 project, presented at 39th International Conference on Software Engineering (ICSE).
+ The project was created to provide the code and data used for the [corresponding publication](https://arxiv.org/abs/1702.07424), presented at [The 39th International Conference on Software Engineering (ICSE)](http://icse2017.gatech.edu).
  
 
  ## Abstract
