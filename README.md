@@ -1,8 +1,9 @@
 # Building-Usage-Profiles-Using-Deep-Neural-Nets
 
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview.png" width="600">
+
  The project was created to provide the code and data used for the https://arxiv.org/abs/1702.07424 project, presented at 39th International Conference on Software Engineering (ICSE).
  
-  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="800">
 
  ## Abstract
 
@@ -11,23 +12,18 @@
  ## How it works
 
  A set of pre-defined states (classes) are determined for various versions of Microsoft word:
- 1. font menu open
- 1. default font window open
- 1. columns dropdown open
- 1. columns window open
- 1. page number drop down open
- 1. background (none of the above states)
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="600">
  
- An AlexNet model is fine tuned to predict this set of classes.
+An AlexNet model is fine tuned to predict this set of classes.
+ <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/network.png" width="600">
  
  Next, a set of sequences are defined:
- 1. The user changes the font via the font menu
- 1. The user changes the default font
- 1. The user changes the number of columns via the columns dropdown
- 1. The user changes the number of columns via the columns window
- 1. The user changes the page numbering via the page number dropdown 
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview.png" width="600">
  
- Finally, using a set of regular expressions (per pre-defined sequence), the users action is determined.
+ Finally, using a set of regular expressions (per pre-defined sequence), the users action is determined:
+ <img src=""https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regex.png" width="600">
+ 
+ <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/regex.png" width="600">
  
  ## Data
  
@@ -40,7 +36,14 @@
  
   ### More Examples
   
-  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/column_popup.png" width="800">
+  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/column_popup.png" width="600">
+  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="600">
+  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/page_number.png" width="600">
   
-  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/page_number.png" width="800">
+  ## Results
+  
+   <img src=""https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/image_predictions.png" width="600">
+ 
+   <img src=""https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/sequence_preditions.png" width="600">
+  
  
