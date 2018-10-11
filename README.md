@@ -4,11 +4,6 @@
 <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview_video.png" width="800">
 </p>
 
-
-<div style="text-align:center">
-<img src ="ttps://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview_video.png" />
-</div>
-
  The project was created to provide the code and data used for the [corresponding publication](https://arxiv.org/abs/1702.07424), presented at [The 39th International Conference on Software Engineering (ICSE)](http://icse2017.gatech.edu).
  
 
@@ -19,20 +14,28 @@
 ## How it works
 
 ### 1) A set of pre-defined states (classes) are selected for various versions of Microsoft Word
- 
+
+<p align="center">
 <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="400">
+</p> 
  
 ### 2) An AlexNet model is fine tuned to predict this set of classes
 
+<p align="center">
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/network.png" width="600">
+</p>
  
 ### 3) Next, a set of regular expressions are defined for the kinds of videos
  
+<p align="center">
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="600">
+</p> 
  
 ### 4) Finally, the class of each video's frame is predicted and regular expressions are used to determine the user's action
  
+<p align="center">
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/regex.png" width="600">
+ </p>
  
  ## Data
  
@@ -45,18 +48,29 @@
  
   ### More Examples
   
+<p align="center">
   <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/column_popup.png" width="600">
-  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="600">
-  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/page_number.png" width="600">
+</p>
+
+<p align="center">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="600">
+</p>
+
+<p align="center">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/page_number.png" width="600">
+</p>
   
   ## Results
   
   Confusion matrix for per-frame class predictions:
-  
+
+<p align="center">
    <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/image_predictions.png" width="500">
- 
+</p> 
+
    Confusion matrix for per-video class prediction:
- 
+
+<p align="center">
    <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/sequence_preditions.png" width="500">
-  
+</p>  
  
