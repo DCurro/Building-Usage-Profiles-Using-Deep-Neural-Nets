@@ -21,11 +21,9 @@ An AlexNet model is fine tuned to predict this set of classes.
  
  Next, a set of sequences are defined:
  
-<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview.png" width="600">
+ <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regex.png" width="600">
  
  Finally, using a set of regular expressions (per pre-defined sequence), the users action is determined:
- 
- <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regex.png" width="600">
  
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/regex.png" width="600">
  
