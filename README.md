@@ -21,7 +21,7 @@
  
 ### 3) Next, a set of sequences are defined
  
- <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regex.png" width="600">
+ <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="600">
  
 ### 4) Finally, after predicting the class of each image, regular expressions are ysed to determine the user's action
  
