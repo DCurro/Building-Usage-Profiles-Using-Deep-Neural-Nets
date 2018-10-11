@@ -1,6 +1,6 @@
 # Building-Usage-Profiles-Using-Deep-Neural-Nets
 
-<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview.png" width="600">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview.png" width="800">
 
  The project was created to provide the code and data used for the https://arxiv.org/abs/1702.07424 project, presented at 39th International Conference on Software Engineering (ICSE).
  
@@ -13,17 +13,17 @@
 
 ### 1) A set of pre-defined states (classes) are selected for various versions of Microsoft Word
  
-<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="600">
+<img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="400">
  
 ### 2) An AlexNet model is fine tuned to predict this set of classes
 
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/network.png" width="600">
  
-### 3) Next, a set of sequences are defined
+### 3) Next, a set of regular expressions are defined for the kinds of videos
  
- <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="600">
+ <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regular_expression.png" width="400">
  
-### 4) Finally, after predicting the class of each image, regular expressions are ysed to determine the user's action
+### 4) Finally, the class of each video's frame is predicted and regular expressions are used to determine the user's action
  
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/regex.png" width="600">
  
