@@ -13,6 +13,14 @@
  
  This zip file contains all of the original video, selected sequences, and AlexNet resized input images.
  
+ The dataset is composed of images of various versions of Microsoft Word in different states:
+ 1. font menu open
+ 1. default font window open
+ 1. columns dropdown open
+ 1. columns window open
+ 1. page number drop down open
+ 1. background (none of the above states)
+ 
   ### Examples
   
   <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/column_popup.png" width="800">
