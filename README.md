@@ -1,6 +1,8 @@
 # Building-Usage-Profiles-Using-Deep-Neural-Nets
 
  The project was created to provide the code and data used for the https://arxiv.org/abs/1702.07424 project, presented at 39th International Conference on Software Engineering (ICSE).
+ 
+  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="800">
 
  ## Abstract
 
@@ -36,11 +38,9 @@
  
  The dataset is composed of videos for the give types of sequences. Each image is labeled in as one of the possible classes.
  
-  ### Examples
+  ### More Examples
   
   <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/column_popup.png" width="800">
-  
-  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/default_font.png" width="800">
   
   <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/page_number.png" width="800">
  
