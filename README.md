@@ -12,15 +12,19 @@
  ## How it works
 
  A set of pre-defined states (classes) are determined for various versions of Microsoft word:
+ 
 <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_class.png" width="600">
  
 An AlexNet model is fine tuned to predict this set of classes.
+
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/network.png" width="600">
  
  Next, a set of sequences are defined:
+ 
 <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/overview.png" width="600">
  
  Finally, using a set of regular expressions (per pre-defined sequence), the users action is determined:
+ 
  <img src=""https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/define_regex.png" width="600">
  
  <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/model/regex.png" width="600">
@@ -42,8 +46,8 @@ An AlexNet model is fine tuned to predict this set of classes.
   
   ## Results
   
-   <img src=""https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/image_predictions.png" width="600">
+   <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/image_predictions.png" width="600">
  
-   <img src=""https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/sequence_preditions.png" width="600">
+   <img src="https://github.com/DCurro/Building-Usage-Profiles-Using-Deep-Neural-Nets/blob/master/github_images/results/sequence_preditions.png" width="600">
   
  
