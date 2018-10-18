@@ -2,6 +2,8 @@ The project was created to provide the code and data used for the [corresponding
  
 The [dataset](https://zenodo.org/record/321921) used for this project has been made publically available.
 
+Following is a summary of the publication.
+
 # Building-Usage-Profiles-Using-Deep-Neural-Nets
 
 <p align="center">
